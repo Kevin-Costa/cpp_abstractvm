@@ -1,0 +1,27 @@
+push double(42.42)
+push int32(42)
+dump
+pop
+assert double(42.42)
+
+;;push int32(3)
+;;add
+;;dump
+;;pop
+
+;;pop
+
+
+;;push double(6.0)
+;;push int32(3)
+;;mod
+;;dump
+;;pop
+
+;;push int32(3)
+;;push int32(0)
+;;div
+;;dump
+;;pop
+
+exit
